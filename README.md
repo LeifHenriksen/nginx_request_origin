@@ -10,6 +10,14 @@ It is tested with `Ubuntu 21.10`.
 
 `-l`: Path to nginx log files
 
+# Download
+```
+git clone https://github.com/LeifHenriksen/nginx_request_origin
+cd nginx_request_origin
+chmod +x nginx_request_origin.sh
+./nginx_request_origin.sh -h
+```
+
 # Example
 ```console
 foo@bar:~$ ./nginx_request_origin -r /api/users
