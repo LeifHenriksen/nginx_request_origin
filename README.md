@@ -1,6 +1,8 @@
 # Nginx Request Origin
 This script reads the nginx logs and returns a table with the __number of requests__ and __country__ of each IP.
 
+It is tested with `Ubuntu 21.10`.
+
 # Options
 `-o`: Reads old logs ending with .gz
 
